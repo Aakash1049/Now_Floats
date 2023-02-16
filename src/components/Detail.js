@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 import "./Detail.css"
 
@@ -34,7 +33,6 @@ function DetailScreen() {
         <ul>
           {forecast.map((data) => (
             <li key={data.dt}>
-                {/* {console.log(data)} */}
               <p>{new Date(data.dt * 1000).toLocaleDateString()}</p>
               <p>{new Date(data.dt_txt).toLocaleTimeString()}</p>
               <img src={`https://openweathermap.org/img/w/${data.weather[0].icon}.png`} alt={data.weather[0].description} />

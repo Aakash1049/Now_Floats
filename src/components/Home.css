@@ -115,4 +115,7 @@
   html, body {
     background-color: #f5f5f5;
   }
+  body {
+    background: linear-gradient(to bottom, #4CB8C4, #3CD3AD);
+  }
   
