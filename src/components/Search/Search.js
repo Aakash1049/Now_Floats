@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../../context/AppContext";
 import "./Search.css"
 
 function SearchScreen() {
@@ -25,7 +25,7 @@ function SearchScreen() {
 
     function handleSearchSubmit(event) {
         event.preventDefault();
-        if (searchCity == "") {
+        if (searchCity === "") {
             return alert("Please Enter City name")
         }
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${searchCity},${searchCountry}&units=metric&appid=0d038ed3980cf2432f78d78a92010698`)

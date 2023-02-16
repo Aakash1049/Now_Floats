@@ -1,7 +1,7 @@
 import {Routes, Route} from "react-router-dom"
-import Home from './components/Home';
-import SearchScreen from './components/Search';
-import DetailScreen from './components/Detail';
+import Home from './components/Home/Home';
+import SearchScreen from './components/Search/Search';
+import DetailScreen from './components/Details/Detail';
 
 function App() {
   return (

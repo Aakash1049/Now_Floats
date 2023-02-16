@@ -2,7 +2,7 @@
 import './Home.css';
 import {useContext, useEffect, useState} from "react"
 import { Link, useNavigate } from "react-router-dom";
-import { AppContext } from '../context/AppContext';
+import { AppContext } from '../../context/AppContext';
 
 
 function Home() {
@@ -19,7 +19,6 @@ function Home() {
       console.log(data)
        setCurrentWeather(data.main)
        setCurrentWeather({...data.main,...data.weather[0], name:data.name,...data.wind})
-       console.log(currentWeather)
     })
     })
   },[favoriteLocations])
