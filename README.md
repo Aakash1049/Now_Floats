@@ -1,6 +1,6 @@
 # Weather Application
 
-
+weather app that shows the current weather and forecast for a location. The app allows users to search for locations and save their favorite locations for quick access.
 
 ## **Installation**
 1) Clone the repository: git clone https://github.com/Aakash1049/Now_Floats.git
