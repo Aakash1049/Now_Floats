@@ -12,4 +12,4 @@ weather app that shows the current weather and forecast for a location. The app 
 The application has been deployed to a free cloud server Render. You can access the live link [here](https://now-floats-weather-app.onrender.com/).
 
 ## *Note*
-Kindly give location permission for site.
+kindly grant location permission for site through the site settings.
