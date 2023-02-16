@@ -5,7 +5,7 @@
 ## **Installation**
 1) Clone the repository: git clone https://github.com/Aakash1049/Now_Floats.git
 2) Install dependencies: npm install
-3) Start the development server: npm start
+3) Start the development: npm start
 
 
 ## **Deployment**
