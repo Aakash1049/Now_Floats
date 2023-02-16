@@ -1,0 +1,118 @@
+.home-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .search-button {
+    margin: 1rem;
+    
+  }
+  .search-button button{
+    border: none;
+    background-color: #0077be;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    padding: 1rem 2rem;
+
+
+  }
+  .search-button button:hover{
+    background-color: #00528c;
+    transform: translateY(-2px);
+
+  }
+  
+  .current-weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0077be;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #0077be;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .current-weather p{
+    color: white;
+  }
+  
+  .current-weather:hover {
+    transform: translateY(-5px);
+  }
+  
+  .current-weather img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .favorite-locations {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .favorite-locations h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .favorite-locations ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .each-fav-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #0077be;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .each-fav-location:hover {
+    transform: translateY(-5px);
+  }
+  
+  .each-fav-location li {
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .each-fav-location button {
+    margin-top: 0.5rem;
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .each-fav-location button:hover {
+    background-color: #CD0404;
+  }
+  html, body {
+    background-color: #f5f5f5;
+  }
+  
